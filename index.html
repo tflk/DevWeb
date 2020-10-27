@@ -2,26 +2,41 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <link type="text/css" rel="stylesheet" href="style.css">
-        <title>Quentin Thibaut</title>
+        <title> Quentin Thibaut </title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="news.asp">Modèles</a></li>
-            <li><a href="contact.asp">Dashboard</a></li>
-            <li><a href="about.asp">About</a></li>
-        </ul>
-        <div style="padding:20px;
-                    margin-top:30px;">
-            <h1>Voilà mon joli titre</h1>
-            <p>Bonjour et bienvenue sur mon site !<br />
-                Ceci est mon premier test alors <strong>soyez indulgents</strong> s'il vous plaît, j'apprends petit à petit comment cela marche.</p>
-        </div>
-        <div style="padding:20px;">
-            <p>Test</p>
-        </div>
+    
+        <header class="header">
+            <nav>
+                <ul>
+                    <li class="li-gauche"><a class="active link-navbar" href="index.html"> Home </a></li>
+                    <li class="li-gauche"><a class="link-navbar" href="#models"> Modèles </a></li>
+                    <li class="li-gauche"><a class="link-navbar" href="#dashboard"> Dashboard </a></li>
+                    <li class="li-gauche"><a class="link-navbar" href="#about"> A propos </a></li>
+                    <li class="li-droite"><a class="link-navbar" href="#register"> S'inscrire </a></li>
+                    <li class="li-droite"><a class="link-navbar" href="#connect"> Connexion </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <h1> Voilà mon joli titre </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </main>
+        
+        <footer class="container-fluid footer">
+            ©Copyright 2020 par Quentin et Thibaut. Tous droits réservés.
+        </footer>
     
     </body>
 </html>
