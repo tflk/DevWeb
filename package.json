@@ -1,0 +1,29 @@
+{
+  "name": "devweb",
+  "version": "1.0.0",
+  "description": "projet api finance simplon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tflk/DevWeb.git"
+  },
+  "keywords": [
+    "app",
+    "fintech",
+    "cac40",
+    "wallstreet"
+  ],
+  "author": "quentin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tflk/DevWeb/issues"
+  },
+  "homepage": "https://github.com/tflk/DevWeb#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "lessc": "3.12.2"
+  }
+}
